@@ -1,0 +1,103 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: "微软雅黑";
+ }
+
+ body {
+     background: #f1f2f3;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color: #000;
+ }
+ /*header css*/
+
+ header {
+     padding-top: 100px;
+     overflow: hidden;
+ }
+
+ header>.logo {
+     width: 80px;
+     height: 80px;
+     background: url("../images/gd-logo.png") no-repeat center center;
+     background-size: 100%;
+     margin: 18px auto 13px;
+     border-radius: 5px;
+ }
+
+ header>.product-name {
+     font-size: 15px;
+     color: #1e1e1e;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ header>.product-name>span {
+     display: inline-block;
+     font-size: 10px;
+     width: 34px;
+     height: 14px;
+     line-height: 14px;
+     text-align: center;
+     border: 1px solid #ffbbcb;
+     background-color: #fef2f7;
+     color: #ffc3d2;
+     margin-bottom: 11px;
+ }
+
+ header>.point {
+     text-align: center;
+     margin: 0 auto;
+ }
+
+ header>.point>.center {
+     margin: 0 15px 22px 13px;
+ }
+
+ header>.load {
+     display: block;
+     text-decoration: none;
+     width: 75%;
+     height: 30px;
+     margin: 0 auto;
+     line-height: 30px;
+     text-align: center;
+     background-color: #02C54C;
+     color: #fff;
+     font-size: 15px;
+     margin-bottom: 40px;
+     border-radius: 5px;
+ }
+
+ header>.load>span {
+     display: inline-block;
+     width: 15px;
+     height: 15px;
+     background: url("../images/load.png") no-repeat;
+     background-size: 100% 100%;
+ }
+
+ header>.shadow {
+     width: 100%;
+     /* border: 1px solid #ccc; */
+     /* box-shadow: 0px 0px 14px 4px #ccc; */
+ }
+ 
+ /*遮罩层*/
+ .weixin-tip {
+     display: none;
+     position: fixed;
+     left: 0;
+     top: 0;
+     bottom: 0;
+     background: #fff;
+     filter: alpha(opacity=80);
+     height: 100%;
+     width: 100%;
+     z-index: 100;
+ }
+ .weixin-tip p img {
+     max-width: 100%;
+     height: auto;
+ }
